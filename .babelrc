@@ -1,0 +1,14 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    ["babel-plugin-styled-components"],
+    ["add-react-displayname"],
+    [
+      "module-resolver",
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "root": ["./"]
+      }
+    ]
+  ]
+}
